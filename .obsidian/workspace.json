@@ -11,17 +11,28 @@
             "id": "0b11a4211efb601a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "3cd1e2b713a9dad6",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
               "state": {
-                "file": "Files.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Character array.md",
+                "bFile": "Character array.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Files"
+              "icon": "diff",
+              "title": "Diff: Character array"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,8 +83,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "af95691a4efa3832",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -93,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Files"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +133,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Files"
+              "title": "Outgoing links"
             }
           },
           {
@@ -138,14 +158,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Files.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Files"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,8 +182,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0b11a4211efb601a",
+  "active": "3cd1e2b713a9dad6",
   "lastOpenFiles": [
+    "Character array.md",
+    "Matrix.md",
+    "Files.md",
+    "Combinatorics.md",
     "repo"
   ]
 }
