@@ -1,4 +1,4 @@
- A **character array** is an array of `char` type whose _last element_ is the _null terminator_, `'\0'` 
+A **character array** is an array of `char` type whose _last element_ is the _null terminator_, `'\0'` 
 
 ### Declaration
 
