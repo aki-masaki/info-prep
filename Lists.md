@@ -73,3 +73,27 @@ And now, the list's _length_ can be _decremented_ since there's an element missi
 
 Result
 $\{1, 2, 3, 4, 5\}$
+### Special lists
+
+By _special_ we mean a **list** which has restrictions on its _operations_.
+
+Their implementation is _no different_ than that of an array.
+```c++
+TYPE VAR[SIZE];
+```
+
+#### Stack
+A _stack_ is a _linear list_ whose _inserting_ and _deleting_ operations target one end of the list, called its _head_ (vârf).
+
+We can think of stack as a pile of _plates_, you can't take the bottom one unless u take every plate at the top and _remove_ it first, and u cant _add_ a new plate at the bottom.
+
+![[Stack.svg]]
+
+A stack's operations are:
+- **push**, insert an element at the _top_ of the stack
+- **pop**, remove an element from the _top_ of the stack
+
+#### Queue
+A _queue_ is a _linear list_ whose _inserting_ operation target one end of the list (the _back_), while the _deleting_ operation target the _other end_ (the _front_).
+
+![[Queue.svg]]

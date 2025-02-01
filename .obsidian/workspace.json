@@ -4,35 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e6a19c42e4825a",
+        "id": "305a62444f2919d9",
         "type": "tabs",
         "children": [
           {
-            "id": "0b11a4211efb601a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "3cd1e2b713a9dad6",
+            "id": "cc1086c0d1367a45",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Character array.md",
-                "bFile": "Character array.md",
+                "aFile": ".obsidian/community-plugins.json",
+                "bFile": ".obsidian/community-plugins.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Character array"
+              "title": "Diff: community-plugins.json"
+            }
+          },
+          {
+            "id": "0aac2c57078eb6e6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +52,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -182,11 +184,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3cd1e2b713a9dad6",
+  "active": "cc1086c0d1367a45",
   "lastOpenFiles": [
-    "Character array.md",
+    "Lists.md",
     "Matrix.md",
     "Files.md",
+    "Structs.md",
+    "Diagrams/Queue.svg",
+    "Diagrams/Stack.svg",
+    "Diagrams",
+    "Character array.md",
     "Combinatorics.md",
     "repo"
   ]
