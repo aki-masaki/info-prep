@@ -54,4 +54,3 @@ Expected `output`
 ```output
 6 6 11
 ```
-``

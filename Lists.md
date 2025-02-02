@@ -93,7 +93,21 @@ A stack's operations are:
 - **push**, insert an element at the _top_ of the stack
 - **pop**, remove an element from the _top_ of the stack
 
+For _implementation_, we need to keep track of the _head_ of the stack, with an _int_ variable which is the index of the top element.
+
+Example:
+$\{1, 2\}\rightarrow 1$
+$\{1, 2, 3\}\rightarrow 2$
+$\{\}\rightarrow 0$
+
 #### Queue
 A _queue_ is a _linear list_ whose _inserting_ operation target one end of the list (the _back_), while the _deleting_ operation target the _other end_ (the _front_).
 
 ![[Queue.svg]]
+
+For _implementation_, we need to keep track of the _front_ of the queue, and its _size_, which is the number of elements currently in the queue.
+
+Example:
+$\{1, 2\} \rightarrow 0, 2$
+$\{1, 2, 3\} \rightarrow 0, 3$
+$\{\} \rightarrow 0, 0$
